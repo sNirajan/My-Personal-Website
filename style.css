@@ -1,0 +1,149 @@
+/* Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff; /* White */
+    color: #333333; /* Dark Gray for text */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #0d3b66 !important; /* Navy Blue */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff !important; /* White for the brand */
+    
+}
+
+.nav-link {
+    color: #ffffff !important; /* White for the navigation links */
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: #cccccc !important; /* Navy blue on hover */
+}
+
+/* Hero Section */
+section.bg-light {
+    background-color: #0d3b66; /* Navy Blue */
+    color: #ffffff; /* White text */
+    padding: 100px 0;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #333333; /* White for the main title */
+}
+
+p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    color: #333333; /* Light Gray for subtext */
+}
+
+/* Button */
+.btn-lg {
+    padding: 10px 30px;
+    background-color: #f0f0f0; /* Light Gray Button */
+    border: none;
+    color: #0d3b66; /* Navy Blue text */
+}
+
+.btn-lg:hover {
+    background-color: #0d3b66; /* Navy Blue on hover */
+    color: #ffffff; /* White text */
+}
+
+/* About Section */
+#about {
+    background-color: #f0f0f0; /* Light Gray background to create contrast */
+    padding: 80px 0;
+    color: #333333; /* Dark Gray text for readability */
+}
+
+#about h2 {
+    color: #0d3b66; /* Navy Blue for section titles */
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333333; /* Dark Gray for paragraph text */
+}
+
+/* Projects Section */
+#projects {
+    background-color: #ffffff; /* White background */
+    padding: 80px 0;
+    color: #333333; /* Dark Gray text */
+}
+
+#projects h3 {
+    font-weight: 600;
+    color: #0d3b66; /* Navy Blue for project titles */
+}
+
+#projects p {
+    color: #333333; /* Dark Gray for project descriptions */
+}
+
+.btn-outline-dark {
+    border-color: #0d3b66;
+    color: #0d3b66;
+}
+
+.btn-outline-dark:hover {
+    background-color: #0d3b66;
+    color: #ffffff; /* White on hover */
+}
+
+/* Contact Section */
+#contact {
+    background-color: #0d3b66; /* Navy Blue background */
+    padding: 80px 0;
+    color: #ffffff; /* White text */
+}
+
+#contact h2 {
+    color: #ffffff; /* White for section titles */
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input.form-control, textarea.form-control {
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #f0f0f0; /* Light gray form input fields */
+    border: 1px solid #ffffff; /* White borders */
+    color: #333333; /* Dark Gray for input text */
+}
+
+button.btn-primary {
+    padding: 10px 20px;
+    font-weight: 600;
+    background-color: #f0f0f0; /* Light Gray for button */
+    border: none;
+    color: #0d3b66; /* Navy Blue text */
+}
+
+button.btn-primary:hover {
+    background-color: #445e77; /* Slightly Blue on hover */
+    color: #ffffff; /* White text */
+}
+
+/* Footer (if needed) */
+footer {
+    background-color: #0d3b66;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff; /* White text */
+}
